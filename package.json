@@ -1,22 +1,29 @@
 {
-  "name": "brightcove-api",
-  "version": "0.1.6",
-  "description": "Provides an API for signing and sending calls to the BrightCove CMS API",
-  "main": "src/index.js",
-  "dependencies": {
-    "lodash": "3.6.*",
-    "request": "^2.55.0"
-  },
-  "devDependencies": {
-    "chai": "^2.2.0",
-    "coffee-script": "^1.9.0",
-    "nock": "^1.6.0",
-    "sinon": "^1.14.1",
-    "yargs": "^3.7.1"
-  },
-  "scripts": {
-    "test": "mocha test/**/*.coffee"
-  },
-  "author": "Andrew Dodson",
-  "license": "ISC"
+	"name": "brightcove-api",
+	"version": "0.1.6",
+	"description": "Provides an API for signing and sending calls to the BrightCove CMS API",
+	"main": "src/index.js",
+	"dependencies": {
+		"lodash": "3.6.*",
+		"request": "^2.55.0"
+	},
+	"devDependencies": {
+		"chai": "^2.2.0",
+		"coffee-script": "^1.9.0",
+		"nock": "^1.6.0",
+		"sinon": "^1.14.1",
+		"yargs": "^3.7.1"
+	},
+	"scripts": {
+		"test": "mocha test/**/*.coffee"
+	},
+	"author": "Andrew Dodson",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com/MrSwitch/brightcove-api"
+	},
+	"bugs": {
+		"url": "https://github.com/MrSwitch/hello.js/issues"
+	}
 }
