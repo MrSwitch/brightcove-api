@@ -1,0 +1,4 @@
+--compilers js:coffee-script/register
+--require test/helper.js
+--reporter spec
+--recursive
